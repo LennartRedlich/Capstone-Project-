@@ -6,3 +6,4 @@ seaborn
 jupyter
 streamlit
 joblib
+sentence-transformers
