@@ -1,13 +1,20 @@
-import streamlit as st
 import pandas as pd
 from sklearn.metrics import accuracy_score
 import json
+import streamlit as st
+from pathlib import Path
 
+
+LOGO_PATH = Path("files/snapAddy_Logo.png")
 
 st.set_page_config(page_title="CV Explorer", layout="wide")
+
+st.image(str(LOGO_PATH), width=400)
+
 st.title("LinkedIn CV Explorer (minimal)")
 
-DATA_PATH = "files/linkedin-cvs-annotated.json"  # falls du das andere willst: linkedin-cvs-not-annotated.json
+DATA_PATH = "files/linkedin-cvs-annotated.json"  
+LOGO_PATH = Path("files/snapAddy_Logo.png")
 
 @st.cache_data
 def load_jobs(path: str) -> pd.DataFrame:
