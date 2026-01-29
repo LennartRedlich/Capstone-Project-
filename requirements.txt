@@ -7,4 +7,7 @@ jupyter
 streamlit
 joblib
 sentence-transformers
+streamlit
+tqdm
 python-dotenv
+google-generativeai
