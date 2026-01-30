@@ -30,9 +30,10 @@ Capstone-Project-/
 │       ├── 04_TF-IDF_logreg_seniority.ipynb
 │       ├── 05_API_Seniority.ipynb
 │       ├── 05_API_Department.ipynb
-│       ├──06_Feature Engineering Domain.ipynb
-│       ├──07_Finetune_Distilbert_CV_Classification.ipynb
-│       ├──08_Pseudo-Labeling_CV_Domain_Seniority.ipynb
+│       ├── 06_Feature_engineering_Domain.ipynb
+│       ├── 06_Feature_engineering_Seniority.ipynb
+│       ├── 07_Finetune_Distilbert_CV_Classification.ipynb
+│       ├── 08_Pseudo-Labeling_CV_Domain_Seniority.ipynb
 │       └── *.joblib               # Saved models
 ├── app.py			#Streamlit dashboard
 ├── requirements.txt
