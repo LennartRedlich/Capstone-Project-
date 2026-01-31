@@ -91,14 +91,14 @@ for person_id, cv in enumerate(data):
         if job.get("status") == "ACTIVE":
             jobs_active.append(row)
 
-st.write("Anzahl Jobs gesamt:", len(jobs_all))
-st.write("Anzahl ACTIVE Jobs:", len(jobs_active))
+st.write("Count Jobs total:", len(jobs_all))
+st.write("Count ACTIVE Jobs:", len(jobs_active))
 
 
 # Filter ACTIVE Jobs (Text)
 st.subheader("Filter ACTIVE Jobs")
 
-search_text = st.text_input("Suche nach Position oder Unternehmen", value="")
+search_text = st.text_input("Search for Position or Organization", value="")
 
 df_active = pd.DataFrame(jobs_active)
 
