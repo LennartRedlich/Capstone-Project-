@@ -50,6 +50,10 @@ cd Capstone-Project-
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Store your own API key in a .env file in `src/notebooks/`
+GEMINI_API_KEY= XXX
+
 ```
 
 ## Usage
